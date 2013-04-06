@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415E7D44170FC2B400EF30B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415E7D43170FC2B400EF30B7 /* Cocoa.framework */; };
+		415E7D4E170FC2B400EF30B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415E7D4C170FC2B400EF30B7 /* InfoPlist.strings */; };
+		415E7D50170FC2B400EF30B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415E7D4F170FC2B400EF30B7 /* main.m */; };
+		415E7D54170FC2B400EF30B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 415E7D52170FC2B400EF30B7 /* Credits.rtf */; };
+		415E7D57170FC2B400EF30B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415E7D56170FC2B400EF30B7 /* AppDelegate.m */; };
+		415E7D5A170FC2B400EF30B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415E7D58170FC2B400EF30B7 /* MainMenu.xib */; };
+		415E7D62170FC2B400EF30B7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415E7D61170FC2B400EF30B7 /* SenTestingKit.framework */; };
+		415E7D63170FC2B400EF30B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415E7D43170FC2B400EF30B7 /* Cocoa.framework */; };
+		415E7D6B170FC2B400EF30B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415E7D69170FC2B400EF30B7 /* InfoPlist.strings */; };
+		415E7D6E170FC2B400EF30B7 /* DriveInsomniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415E7D6D170FC2B400EF30B7 /* DriveInsomniaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		415E7D64170FC2B400EF30B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415E7D38170FC2B400EF30B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415E7D3F170FC2B400EF30B7;
+			remoteInfo = DriveInsomnia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		415E7D40170FC2B400EF30B7 /* DriveInsomnia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveInsomnia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415E7D43170FC2B400EF30B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		415E7D46170FC2B400EF30B7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		415E7D47170FC2B400EF30B7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		415E7D48170FC2B400EF30B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		415E7D4B170FC2B400EF30B7 /* DriveInsomnia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DriveInsomnia-Info.plist"; sourceTree = "<group>"; };
+		415E7D4D170FC2B400EF30B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415E7D4F170FC2B400EF30B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		415E7D51170FC2B400EF30B7 /* DriveInsomnia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DriveInsomnia-Prefix.pch"; sourceTree = "<group>"; };
+		415E7D53170FC2B400EF30B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		415E7D55170FC2B400EF30B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		415E7D56170FC2B400EF30B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		415E7D59170FC2B400EF30B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		415E7D60170FC2B400EF30B7 /* DriveInsomniaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveInsomniaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415E7D61170FC2B400EF30B7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		415E7D68170FC2B400EF30B7 /* DriveInsomniaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DriveInsomniaTests-Info.plist"; sourceTree = "<group>"; };
+		415E7D6A170FC2B400EF30B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415E7D6C170FC2B400EF30B7 /* DriveInsomniaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriveInsomniaTests.h; sourceTree = "<group>"; };
+		415E7D6D170FC2B400EF30B7 /* DriveInsomniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriveInsomniaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415E7D3D170FC2B400EF30B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E7D44170FC2B400EF30B7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415E7D5C170FC2B400EF30B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E7D62170FC2B400EF30B7 /* SenTestingKit.framework in Frameworks */,
+				415E7D63170FC2B400EF30B7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415E7D37170FC2B400EF30B7 = {
+			isa = PBXGroup;
+			children = (
+				415E7D49170FC2B400EF30B7 /* DriveInsomnia */,
+				415E7D66170FC2B400EF30B7 /* DriveInsomniaTests */,
+				415E7D42170FC2B400EF30B7 /* Frameworks */,
+				415E7D41170FC2B400EF30B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415E7D41170FC2B400EF30B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D40170FC2B400EF30B7 /* DriveInsomnia.app */,
+				415E7D60170FC2B400EF30B7 /* DriveInsomniaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415E7D42170FC2B400EF30B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D43170FC2B400EF30B7 /* Cocoa.framework */,
+				415E7D61170FC2B400EF30B7 /* SenTestingKit.framework */,
+				415E7D45170FC2B400EF30B7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415E7D45170FC2B400EF30B7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D46170FC2B400EF30B7 /* AppKit.framework */,
+				415E7D47170FC2B400EF30B7 /* CoreData.framework */,
+				415E7D48170FC2B400EF30B7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		415E7D49170FC2B400EF30B7 /* DriveInsomnia */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D55170FC2B400EF30B7 /* AppDelegate.h */,
+				415E7D56170FC2B400EF30B7 /* AppDelegate.m */,
+				415E7D58170FC2B400EF30B7 /* MainMenu.xib */,
+				415E7D4A170FC2B400EF30B7 /* Supporting Files */,
+			);
+			path = DriveInsomnia;
+			sourceTree = "<group>";
+		};
+		415E7D4A170FC2B400EF30B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D4B170FC2B400EF30B7 /* DriveInsomnia-Info.plist */,
+				415E7D4C170FC2B400EF30B7 /* InfoPlist.strings */,
+				415E7D4F170FC2B400EF30B7 /* main.m */,
+				415E7D51170FC2B400EF30B7 /* DriveInsomnia-Prefix.pch */,
+				415E7D52170FC2B400EF30B7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415E7D66170FC2B400EF30B7 /* DriveInsomniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D6C170FC2B400EF30B7 /* DriveInsomniaTests.h */,
+				415E7D6D170FC2B400EF30B7 /* DriveInsomniaTests.m */,
+				415E7D67170FC2B400EF30B7 /* Supporting Files */,
+			);
+			path = DriveInsomniaTests;
+			sourceTree = "<group>";
+		};
+		415E7D67170FC2B400EF30B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415E7D68170FC2B400EF30B7 /* DriveInsomniaTests-Info.plist */,
+				415E7D69170FC2B400EF30B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415E7D3F170FC2B400EF30B7 /* DriveInsomnia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415E7D71170FC2B400EF30B7 /* Build configuration list for PBXNativeTarget "DriveInsomnia" */;
+			buildPhases = (
+				415E7D3C170FC2B400EF30B7 /* Sources */,
+				415E7D3D170FC2B400EF30B7 /* Frameworks */,
+				415E7D3E170FC2B400EF30B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveInsomnia;
+			productName = DriveInsomnia;
+			productReference = 415E7D40170FC2B400EF30B7 /* DriveInsomnia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		415E7D5F170FC2B400EF30B7 /* DriveInsomniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415E7D74170FC2B400EF30B7 /* Build configuration list for PBXNativeTarget "DriveInsomniaTests" */;
+			buildPhases = (
+				415E7D5B170FC2B400EF30B7 /* Sources */,
+				415E7D5C170FC2B400EF30B7 /* Frameworks */,
+				415E7D5D170FC2B400EF30B7 /* Resources */,
+				415E7D5E170FC2B400EF30B7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415E7D65170FC2B400EF30B7 /* PBXTargetDependency */,
+			);
+			name = DriveInsomniaTests;
+			productName = DriveInsomniaTests;
+			productReference = 415E7D60170FC2B400EF30B7 /* DriveInsomniaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415E7D38170FC2B400EF30B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = O2Bits;
+			};
+			buildConfigurationList = 415E7D3B170FC2B400EF30B7 /* Build configuration list for PBXProject "DriveInsomnia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 415E7D37170FC2B400EF30B7;
+			productRefGroup = 415E7D41170FC2B400EF30B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415E7D3F170FC2B400EF30B7 /* DriveInsomnia */,
+				415E7D5F170FC2B400EF30B7 /* DriveInsomniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415E7D3E170FC2B400EF30B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E7D4E170FC2B400EF30B7 /* InfoPlist.strings in Resources */,
+				415E7D54170FC2B400EF30B7 /* Credits.rtf in Resources */,
+				415E7D5A170FC2B400EF30B7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415E7D5D170FC2B400EF30B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E7D6B170FC2B400EF30B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		415E7D5E170FC2B400EF30B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415E7D3C170FC2B400EF30B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E7D50170FC2B400EF30B7 /* main.m in Sources */,
+				415E7D57170FC2B400EF30B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415E7D5B170FC2B400EF30B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E7D6E170FC2B400EF30B7 /* DriveInsomniaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		415E7D65170FC2B400EF30B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415E7D3F170FC2B400EF30B7 /* DriveInsomnia */;
+			targetProxy = 415E7D64170FC2B400EF30B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		415E7D4C170FC2B400EF30B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415E7D4D170FC2B400EF30B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		415E7D52170FC2B400EF30B7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415E7D53170FC2B400EF30B7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		415E7D58170FC2B400EF30B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415E7D59170FC2B400EF30B7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		415E7D69170FC2B400EF30B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415E7D6A170FC2B400EF30B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415E7D6F170FC2B400EF30B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		415E7D70170FC2B400EF30B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		415E7D72170FC2B400EF30B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DriveInsomnia/DriveInsomnia-Prefix.pch";
+				INFOPLIST_FILE = "DriveInsomnia/DriveInsomnia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		415E7D73170FC2B400EF30B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DriveInsomnia/DriveInsomnia-Prefix.pch";
+				INFOPLIST_FILE = "DriveInsomnia/DriveInsomnia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		415E7D75170FC2B400EF30B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DriveInsomnia.app/Contents/MacOS/DriveInsomnia";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DriveInsomnia/DriveInsomnia-Prefix.pch";
+				INFOPLIST_FILE = "DriveInsomniaTests/DriveInsomniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		415E7D76170FC2B400EF30B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DriveInsomnia.app/Contents/MacOS/DriveInsomnia";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DriveInsomnia/DriveInsomnia-Prefix.pch";
+				INFOPLIST_FILE = "DriveInsomniaTests/DriveInsomniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415E7D3B170FC2B400EF30B7 /* Build configuration list for PBXProject "DriveInsomnia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415E7D6F170FC2B400EF30B7 /* Debug */,
+				415E7D70170FC2B400EF30B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415E7D71170FC2B400EF30B7 /* Build configuration list for PBXNativeTarget "DriveInsomnia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415E7D72170FC2B400EF30B7 /* Debug */,
+				415E7D73170FC2B400EF30B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		415E7D74170FC2B400EF30B7 /* Build configuration list for PBXNativeTarget "DriveInsomniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415E7D75170FC2B400EF30B7 /* Debug */,
+				415E7D76170FC2B400EF30B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415E7D38170FC2B400EF30B7 /* Project object */;
+}
