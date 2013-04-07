@@ -12,4 +12,11 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (weak) IBOutlet NSTextField *LabelStatus;
+
+@property (weak) IBOutlet NSComboBox *VolumesCombo;
+- (IBAction)VolumesCombo:(id)sender;
+
+- (IBAction)ApplyInsomnia:(id)sender;
+
 @end
