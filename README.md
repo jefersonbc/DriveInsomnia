@@ -1,5 +1,5 @@
-DriveInsomnia
-=============
+DriveInsomnia for Mac Os X
+==========================
 
 About
 =====
