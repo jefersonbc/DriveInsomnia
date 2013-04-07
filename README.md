@@ -26,7 +26,7 @@ Who build this?
 DriveInsomnia was built by Jeferson Brito and is completely open source and available on https://github.com/jefersonbc/DriveInsomnia.
 DriveInsomnia is my first Cocoa application, probably with many flaws and oversights, but it was a great experience to solve a real need.
 
-You can also follow @jefersonbc on Twitter where he'll tweet about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
+You can also follow https://twitter.com/jefersonbc on Twitter or http://www.facebook.com/jefersonbc on Facebook where he'll tweet about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
 
 
 A short history
