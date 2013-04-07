@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  DriveInsomnia
 //
-//  Created by Jeferson Brito Chaves on 05/04/13.
+//  Created by Jeferson Brito on 05/04/13.
 //  Copyright (c) 2013 O2Bits. All rights reserved.
 //
 
