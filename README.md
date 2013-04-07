@@ -23,7 +23,10 @@ Basically:
 Who build this?
 ==============
 
-DriveInsomnia was built by Jeferson Brito and is completely open source and available https://github.com/jefersonbc/DriveInsomnia. You can also follow @jefersonbc on Twitter where he'll tweet about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
+DriveInsomnia was built by Jeferson Brito and is completely open source and available on https://github.com/jefersonbc/DriveInsomnia.
+DriveInsomnia is my first Cocoa application, probably with many flaws and oversights, but it was a great experience to solve a real need.
+
+You can also follow @jefersonbc on Twitter where he'll tweet about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
 
 
 A short history
@@ -32,5 +35,3 @@ A short history
 I have two external drives that do not obey the power saving settings in Mac OS X, so that even unchecking the option to make disks to sleep, they insist on sleeping.
 In this way several times a day, when I need to access them, they are sleeping. Until they are available again, the Mac OS suffers some crashes or slowdowns.
 Was thinking of solving this problem that I wrote my first application in Objective-C, the DriveInsomnia.
-
-DriveInsomnia is my first Cocoa application, probably with many flaws and oversights, but it was a great experience to solve a real need.
