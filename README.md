@@ -21,7 +21,7 @@ Basically:
 Who build this?
 ==============
 
-DriveInsomnia was built by Jeferson BRito and is completely open source and available https://github.com/jefersonbc/DriveInsomnia. You can also follow @jefersonbc on Twitter where he'll tweet about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
+DriveInsomnia was built by Jeferson Brito and is completely open source and available https://github.com/jefersonbc/DriveInsomnia. You can also follow @jefersonbc on Twitter where he'll tweet about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
 
 
 A short history
