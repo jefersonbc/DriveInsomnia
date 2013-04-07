@@ -7,6 +7,8 @@ About
 Some drives do not respect the power saving settings in Mac OS X.
 Drive Insomnia is an App that makes the connected units never sleep. ;)
 
+(Beware, still unfinished!)
+
 
 What DriveInsomnia do?
 ======================
