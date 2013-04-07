@@ -11,11 +11,11 @@ Drive Insomnia is an App that makes the connected units never sleep. ;)
 What DriveInsomnia do?
 ======================
 
-insomnia:
+Basically:
 - Create a hidden file on the disk specified by the user;
 - Creates a Launch Agent that runs the command 'touch-c' in the hidden file created on disk, every minute;
 
-* Insomnia can be reversed.
+(Insomnia can be reversed.)
 
 
 Who build this?
