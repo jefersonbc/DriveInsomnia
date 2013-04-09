@@ -24,6 +24,10 @@
     [self.VolumesCombo selectItemAtIndex:0];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+
 - (IBAction)VolumesCombo:(id)sender {
     [self.LabelStatus setStringValue:self.VolumesCombo.stringValue];
 }
