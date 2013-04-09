@@ -103,7 +103,7 @@
     } else {
         NSLog(@"File does EXIST!");
         
-        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", from now on, never goes to sleep. ;)"]];
+        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", is already under the Insomnia's Power! ;)"]];
         
     }
 }
