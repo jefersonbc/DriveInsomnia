@@ -15,7 +15,7 @@ What DriveInsomnia do?
 
 Basically:
 - Create a hidden file on the disk specified by the user;
-- Creates a Launch Agent that runs the command 'touch-c' in the hidden file created on disk, every minute, maintaining the disk always awake.
+- Creates a Launch Agent that runs the command 'touch-c' to access and modification times of the file created on disk, every minute, maintaining the disk always awake.
 
 (Insomnia can be reversed.)
 
@@ -26,7 +26,7 @@ Who build this?
 DriveInsomnia was built by Jeferson Brito and is completely open source and available on https://github.com/jefersonbc/DriveInsomnia.
 DriveInsomnia is my first Cocoa application, probably with many flaws and oversights, but it was a great experience to solve a real problem.
 
-You can also follow https://twitter.com/jefersonbc on Twitter or http://www.facebook.com/jefersonbc on Facebook where he'll talk about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
+You can also follow Jeferson Brito on Twitter (https://twitter.com/jefersonbc) or Facebook (http://www.facebook.com/jefersonbc), where he'll talk about Ruby and Ruby on Rails, Mac OS, JQuery, Wordpress and CSS/HTML5, plus some hidden treasures.
 
 
 A short history
