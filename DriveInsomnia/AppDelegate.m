@@ -85,9 +85,18 @@
         
         // Unload and load plist
         // Unload disk insomnia plist
-        system("launchctl unload ~/Library/LaunchAgents/com.o2bits.driveinsomnia_Multivac.plist");
+        NSTask *setLaunchAgentPathUnload = [NSTask new];
+        [setLaunchAgentPathUnload setLaunchPath:@"/usr/bin/launchctl"];
+        [setLaunchAgentPathUnload setArguments:[NSArray arrayWithObject:[NSString stringWithFormat:@"unload %@", LaunchAgentFile]]];
+        [setLaunchAgentPathUnload launch];
+        [setLaunchAgentPathUnload waitUntilExit];
         // Load disk insomnia plist
-        system("launchctl load ~/Library/LaunchAgents/com.o2bits.driveinsomnia_Multivac.plist");
+        NSTask *setLaunchAgentPathLoad = [NSTask new];
+        [setLaunchAgentPathLoad setLaunchPath:@"/usr/bin/launchctl"];
+        [setLaunchAgentPathLoad setArguments:[NSArray arrayWithObject:[NSString stringWithFormat:@"load %@", LaunchAgentFile]]];
+        [setLaunchAgentPathLoad launch];
+        [setLaunchAgentPathLoad waitUntilExit];
+        // End Unload and load plist
         
         [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", from now on, never goes to sleep. ;)"]];
         
