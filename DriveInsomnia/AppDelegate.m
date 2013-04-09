@@ -20,6 +20,8 @@
     
     // Add Volume names as items
     [self.VolumesCombo addItemsWithObjectValues:AllVolumes];
+    // Select the first item
+    [self.VolumesCombo selectItemAtIndex:0];
 }
 
 - (IBAction)VolumesCombo:(id)sender {
@@ -98,12 +100,47 @@
         [setLaunchAgentPathLoad waitUntilExit];
         // End Unload and load plist
         
-        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", from now on, never goes to sleep. ;)"]];
+        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", from now on, never goes to sleep."]];
         
     } else {
         NSLog(@"File does EXIST!");
         
-        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", is already under the Insomnia's Power! ;)"]];
+        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", is already under the Insomnia's Power!"]];
+        
+    }
+}
+
+- (IBAction)RemoveInsomnia:(id)sender {
+    // Volume Name selected on VolumesCombo
+    NSString *VolumeName= self.VolumesCombo.stringValue;
+    
+    // Path of hidden file with the name of the volume selected
+    NSString *HiddenFile= [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/driveinsomnia_", VolumeName];
+    
+    // Name of th logged User
+    NSString *LogedUsername= NSUserName();
+    
+    // Path of Launch Agent file with the name of the volume selected
+    NSString *LaunchAgentFile= [NSString stringWithFormat:@"%s%@%s%@%s", "/Users/", LogedUsername, "/Library/LaunchAgents/com.o2bits.driveinsomnia_", VolumeName, ".plist"];
+    
+    // Manager
+    NSFileManager *manager;
+    manager = [NSFileManager defaultManager];
+    
+    if ([manager fileExistsAtPath:HiddenFile]==NO) {
+        // if file does NOT exist, create!
+        NSLog(@"File does NOT exist!");
+        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", is not with insomnia."]];
+        
+    } else {
+        NSLog(@"File does EXIST!");
+
+        // Create hidden file on disk
+        [manager removeItemAtPath:HiddenFile error:nil];
+        // Create disk insomnia plist file
+        [manager removeItemAtPath:LaunchAgentFile error:nil];
+        
+        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ",  from now, will sleep like a baby."]];
         
     }
 }

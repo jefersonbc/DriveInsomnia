@@ -19,4 +19,6 @@
 
 - (IBAction)ApplyInsomnia:(id)sender;
 
+- (IBAction)RemoveInsomnia:(id)sender;
+
 @end
