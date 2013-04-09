@@ -85,6 +85,8 @@
             NSLog(@"failed saving the XML plist file");
         }
         
+        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", from now on, never goes to sleep."]];
+        
         // Unload and load plist
         // Unload disk insomnia plist
         NSTask *setLaunchAgentPathUnload = [NSTask new];
@@ -99,8 +101,6 @@
         [setLaunchAgentPathLoad launch];
         [setLaunchAgentPathLoad waitUntilExit];
         // End Unload and load plist
-        
-        [self.LabelStatus setStringValue:[NSString stringWithFormat:@"%@%s", VolumeName, ", from now on, never goes to sleep."]];
         
     } else {
         NSLog(@"File does EXIST!");

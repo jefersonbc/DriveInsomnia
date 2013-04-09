@@ -2840,7 +2840,7 @@
 								<float key="scoringTypeFloat">29</float>
 								<int key="contentType">3</int>
 							</object>
-							<object class="IBNSLayoutConstraint" id="111302356">
+							<object class="IBNSLayoutConstraint" id="836306775">
 								<reference key="firstItem" ref="439893737"/>
 								<int key="firstAttribute">6</int>
 								<int key="relation">0</int>
@@ -2856,7 +2856,7 @@
 								<float key="scoringTypeFloat">29</float>
 								<int key="contentType">3</int>
 							</object>
-							<object class="IBNSLayoutConstraint" id="145796091">
+							<object class="IBNSLayoutConstraint" id="57336888">
 								<reference key="firstItem" ref="443490423"/>
 								<int key="firstAttribute">5</int>
 								<int key="relation">0</int>
@@ -3499,7 +3499,7 @@
 						<reference key="object" ref="329949497"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="437601748"/>
-							<object class="IBNSLayoutConstraint" id="212497205">
+							<object class="IBNSLayoutConstraint" id="927775696">
 								<reference key="firstItem" ref="329949497"/>
 								<int key="firstAttribute">7</int>
 								<int key="relation">0</int>
@@ -3635,11 +3635,6 @@
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">648</int>
-						<reference key="object" ref="512855433"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">647</int>
 						<reference key="object" ref="328576241"/>
 						<reference key="parent" ref="439893737"/>
@@ -3656,18 +3651,23 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">655</int>
-						<reference key="object" ref="145796091"/>
+						<reference key="object" ref="57336888"/>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">657</int>
+						<reference key="object" ref="836306775"/>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">648</int>
+						<reference key="object" ref="512855433"/>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">656</int>
-						<reference key="object" ref="212497205"/>
+						<reference key="object" ref="927775696"/>
 						<reference key="parent" ref="329949497"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">657</int>
-						<reference key="object" ref="111302356"/>
-						<reference key="parent" ref="439893737"/>
 					</object>
 				</array>
 			</object>
@@ -3746,8 +3746,8 @@
 					<reference ref="111086115"/>
 					<reference ref="328576241"/>
 					<reference ref="512855433"/>
-					<reference ref="145796091"/>
-					<reference ref="111302356"/>
+					<reference ref="57336888"/>
+					<reference ref="836306775"/>
 					<reference ref="982189650"/>
 					<reference ref="952641052"/>
 				</array>
@@ -3832,7 +3832,7 @@
 				<string key="536.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="537.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<array key="549.IBNSViewMetadataConstraints">
-					<reference ref="212497205"/>
+					<reference ref="927775696"/>
 				</array>
 				<boolean value="NO" key="549.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="549.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3886,7 +3886,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">657</int>
+			<int key="maxID">692</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3914,12 +3914,17 @@
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="LabelStatus">NSTextField</string>
+						<string key="TextFieldStatus">NSTextField</string>
 						<string key="VolumesCombo">NSComboBox</string>
 						<string key="window">NSWindow</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="LabelStatus">
 							<string key="name">LabelStatus</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="TextFieldStatus">
+							<string key="name">TextFieldStatus</string>
 							<string key="candidateClassName">NSTextField</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="VolumesCombo">
