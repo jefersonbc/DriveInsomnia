@@ -35,3 +35,7 @@ A short history
 I have two external drives that do not obey the power saving settings in Mac OS X, so that even unchecking the option to make disks to sleep, they insist on sleeping.
 In this way several times a day, when I need to access them, they are sleeping. Until they are available again, the Mac OS suffers some crashes or slowdowns.
 Was thinking of solving this problem that I wrote my first application in Objective-C, the DriveInsomnia.
+
+Credits
+=======
+Iconset: "Free Cup Coffee Icon", from 'http://www.gettyicons.com/free-icon/112/office-space-icon-set/free-cup-coffee-icon-png/'
