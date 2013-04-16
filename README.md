@@ -7,8 +7,6 @@ About
 Some drives do not respect the power saving settings in Mac OS X.
 Drive Insomnia is an App that makes the connected units never sleep. ;)
 
-(Beware, still unfinished!)
-
 
 What DriveInsomnia do?
 ======================
@@ -32,7 +30,7 @@ You can also follow Jeferson Brito on Twitter (https://twitter.com/jefersonbc) o
 A short history
 ===============
 
-I have two external drives that do not obey the power saving settings in Mac OS X, so that even unchecking the option to make disks to sleep, they insist on sleeping. Several times a day, when I get enough time without access them or pause a movie or TV show that I'm watching for a few minutes, they sleep. Until they wake up again, Mac OS suffers some crashes or slowdowns..
+I have two external drives that do not obey the power saving settings in Mac OS X, so that even unchecking the option to make disks to sleep, they insist on sleeping. Several times a day, when I get enough time without access them or pause a movie or TV show that I'm watching for a few minutes, they sleep. Until they wake up again, Mac OS suffers some crashes or slowdowns.
 Was thinking of solving this problem that I made my first application in Objective-C, the DriveInsomnia.
 
 Credits
