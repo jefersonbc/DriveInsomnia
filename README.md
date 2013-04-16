@@ -13,7 +13,7 @@ What DriveInsomnia do?
 
 Basically:
 - Create a hidden file on the disk selected by the user;
-- Creates a Launch Agent that runs the command 'touch -c' To access and modify the time information of the file created on disk, every minute, maintaining the disk always awake.
+- Creates a Launch Agent that runs the command 'touch -c' to access the file created on disk, every minute, to modify the time information, maintaining the disk always awake.
 
 (Insomnia can be reversed.)
 
