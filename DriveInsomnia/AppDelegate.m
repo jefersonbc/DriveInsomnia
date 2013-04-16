@@ -37,7 +37,7 @@
     NSString *VolumeName= self.VolumesCombo.stringValue;
     
     // Path of hidden file with the name of the volume selected
-    NSString *HiddenFile= [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/driveinsomnia_", VolumeName];
+    NSString *HiddenFile= [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/.driveinsomnia_", VolumeName];
     
     // Name of th logged User
     NSString *LogedUsername= NSUserName();
@@ -74,7 +74,7 @@
         NSArray *arrayProgramArguments= [NSArray arrayWithObjects:
                                          @"touch",
                                          @"-c",
-                                         [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/driveinsomnia_", VolumeName],
+                                         [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/.driveinsomnia_", VolumeName],
                                          nil];
         [PlistContent setObject:arrayProgramArguments forKey:@"ProgramArguments"];
         
@@ -119,7 +119,7 @@
     NSString *VolumeName= self.VolumesCombo.stringValue;
     
     // Path of hidden file with the name of the volume selected
-    NSString *HiddenFile= [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/driveinsomnia_", VolumeName];
+    NSString *HiddenFile= [NSString stringWithFormat:@"%s%@%s%@", "/Volumes/", VolumeName, "/.driveinsomnia_", VolumeName];
     
     // Name of th logged User
     NSString *LogedUsername= NSUserName();
